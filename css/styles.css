@@ -34,7 +34,6 @@ html, body {
   float: right;
   margin-bottom: 2em;
   background-color: #3D6AFF;
-  margin-right: 0;
 }
 
 .sub-container-three {
@@ -42,7 +41,6 @@ html, body {
   height: 50vh;
   float: right;
   background-color: #FFEE6C;
-  margin-right: 0;
 }
 
 @media screen and (max-width: 1060px){
