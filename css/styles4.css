@@ -1,0 +1,89 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ /*For testing only */
+
+/**:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}*/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+.container-top {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  clear: both;
+}
+.content1 {
+  width: 50%;
+  height: 30vh;
+  float: left;
+}
+.circle1{
+  background-color: #ededed;
+  width: 300px;
+	height: 300px;
+  border-radius: 150px;
+  margin-right: 10%;
+  margin-top: 2%;
+  float: right;
+}
+
+.container-left {
+  width: 55%;
+  height: 65vh;
+  margin-right: 5%;
+  float: left;
+}
+
+.box1 {
+  width: 45%;
+  height: 20vh;
+  margin-right: 5%;
+  margin-top: 1em;
+  float: left;
+  background-color: #3D6AFF;
+}
+.content2 {
+  width: 45%;
+  height: 20vh;
+  margin-top: 1em;
+  float: right;
+}
+.container-right {
+  padding: 2em;
+  width: 35%;
+  margin-left: 5%;
+  height: 65vh;
+  float: left;
+}
+.box-container {
+  overflow: auto;
+}
+.box2 {
+  width: 25%;
+  height: 10vh;
+  margin-right: 5%;
+  margin-top: 1em;
+  float: left;
+  background-color: #3D6AFF;
+}
+.content3 {
+  width: 65%;
+  height: 20vh;
+  margin-top: 1em;
+  float: right;
+}
