@@ -10,6 +10,7 @@ This contains a CSS exercise practicing media queries and viewports to create we
 
 ## Setup/Installation Requirements
 
+* Check out the GitHub pages link: https://tamothy.github.io/viewports-css
 * Clone repository if interested in making changes
 * Use Atom to customize changes
 * Make sure to commit regularly on terminal
